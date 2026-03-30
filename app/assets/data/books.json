@@ -1,0 +1,13 @@
+{
+    "books": [
+        {
+            "name": "Harry Potter and the Philosophers Stone",
+            "author": "JK rowling",
+            "rating": 5,
+            "book_page": "/app/assets/images/harry_potter_and_the_philosopher_stone.webp"
+        },
+        {
+            // second book goes here
+        }
+    ]
+}
