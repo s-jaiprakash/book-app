@@ -2,7 +2,7 @@ import { html, render } from 'https://cdn.jsdelivr.net/npm/lit-html@3.3.2/+esm';
 
 
 async function loadBooks() {
-    const response = await fetch('/app/assets/data/books.json');
+    const response = await fetch('app/assets/data/books.json');
     const books = await response.json();
     return books.books;
 }
